@@ -6,7 +6,6 @@ module.exports=(req,res,next)=>{
         {
              return next()
         }
-        
     }
     return res.status(401).json({Msg:`Not Authorized`});
 };
